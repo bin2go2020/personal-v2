@@ -6,9 +6,8 @@ section .pro{
   height: 900px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  background-color: #0f4a95;
+  background-color: #5252f9;
 }
 section .pro h2{
   font-size: 60px;
@@ -21,7 +20,7 @@ section .pro h2{
 }
 section .pro .wrap{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 120px;
 }
 section .pro article{
@@ -42,13 +41,15 @@ section .pro article p{
 }
 section .pro article .pic{
 
+  padding-right: 20px;
 }
 section .pro article .pic img{
-  width: 400px;
-  border-radius: 5%;
 }
 section .pro article .pic img:nth-child(1){
  background-image: url(../img/pf1.png);
+ width: 400px;
+ height: 220px;
+  
 }
 
 
