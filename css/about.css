@@ -12,9 +12,9 @@ section#about h3 {
   font-weight: bold;
   text-transform: uppercase;
   padding: 0px 0 10px 0;
-  color: #5252f9;
+  color: #ff6d15;
   font-style: italic;
-  border-bottom: 2px solid #5252f9;
+  border-bottom: 2px solid #ff6d15;
   width: 80%;
   margin: 0 auto;
 }
@@ -59,7 +59,7 @@ section#about div .skill{
   grid-row:3 /span 1;
   width: 400px;
   height: 80px;
-  background-color: #5252f917;
+  background-color: #0964A424;
   border-radius: 30px;
   margin-top: 12px;
 }
