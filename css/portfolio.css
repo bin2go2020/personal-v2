@@ -3,45 +3,62 @@ section{
 }
 section .pro{
   width: 100%;
-  height: 900px;
+  height: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  background-color: #222121;
+  justify-content: space-evenly;
+   background-color: #222121;
 }
-section .pro h2{
-  font-size: 60px;
+section .pro h3{
+  font-size: 80px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 50px;
   color: white;
-  font-style: italic;
 }
 section .pro .wrap{
-  display: flex;
-  justify-content: center;
-  padding-top: 120px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  justify-items: center;
 }
 section .pro article{
   display: flex;
   flex-direction: column;
 }
-section .pro article h3{
-  font-size: 22px;
-  line-height: 1.6;
-  padding-top: 20px;
-}
-section .pro article h3 a{
+section .pro article:nth-child(1){
 
-  color: #eee;
+}
+section .pro article:nth-child(2){
+  
+}
+section .pro article:nth-child(3){
+  
+}
+section .pro article:nth-child(4){
+  grid-row: 2;
+  margin-top: 50px;
+}
+section .pro article:nth-child(5){
+  grid-row:2;
+    margin-top: 50px;
+}
+section .pro article h5{
+  font-size: 15px;
+  line-height: 2.5 !important;
+  text-transform: uppercase;
+}
+section .pro article h5 a{
+
+  color: #fe6c15;
 }
 section .pro article p{
-  color: white;
+  color: whitesmoke;
+  font-size: 20px;
 }
 section .pro article .pic{
 
-  padding-right: 20px;
 }
 section .pro article .pic img{
 }
@@ -49,7 +66,7 @@ section .pro article .pic img:nth-child(1){
  background-image: url(../img/pf1.png);
  width: 400px;
  height: 220px;
-  
+ border-radius: 15px;
 }
 
 

@@ -5,99 +5,76 @@ section#about {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 section#about h3 {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 0px 0 10px 0;
+  padding: 50px 0 10px 0;
   color: #ff6d15;
-  font-style: italic;
   border-bottom: 2px solid #ff6d15;
   width: 80%;
   margin: 0 auto;
 }
 section#about img{
-  width: 30%
+  width: 450px;
+  border-radius: 20px;
+  grid-column: 2;
+  margin-right: 50px;
 }
 section#about div.wrap {
-  /*! display: flex; */
-  justify-content: space-around;
   align-items: center;
-  /*! background-color: #5252f9; */
-  width: 90%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr auto auto 1fr;
-  grid-template-rows: 1fr auto auto 1fr;
+  grid-template-rows: auto auto;
+  align-content: center;
 }
-section#about div.wrap img {
-  width: 400px;
-  /*! border-radius: 10%; */
-  grid-column: 2;
-  grid-row: 2 /span 2;
-  padding-right: 50px;
-}
-section#about div.wrap ul {
+section#about div.ab{
   grid-column: 3;
-  grid-row: 2;
-  /*! align-self: center; */
+  grid-row: 1;
 }
-section#about div.wrap ul li {
-  line-height: 1.7;
-  color: black;
+section#about div.ab ul {
+
 }
-section#about div.wrap h4{
+section#about div.ab ul li {
+  line-height: 1.9;
+  color: #414040;
+}
+section#about div.skill{
   grid-column: 3;
-  grid-row:3;
-  align-self: flex-start;
-  font-size: 21px;
-}
-section#about div .skill{
-  grid-column: 3;
-  grid-row:3 /span 1;
-  width: 400px;
+  grid-row:2;
+  width: 350px;
   height: 80px;
-  background-color: #0964A424;
+  background-color: #3d3d3d;
   border-radius: 30px;
-  margin-top: 12px;
-}
-
-section#about div .skill h4{
-  font-size: 14px;
-  font-style: initial;
-
-  
-}
-section#about div .skill ul{
-  
   display: flex;
-  font-size: 0;
-  /*! padding-left: 50px; */
   justify-content: center;
+}
+section#about div.skill ul{
+  font-size: 0;
+  /*! width: 400px; */
   height: 80px;
+  display: flex;
   align-items: center;
+  width: 200px !important;;
 }
-section#about div .skill ul::before{
+section#about div.skill ul li{
   
 }
-section#about div .skill ul li{
-  
-}
-section#about div .skill ul li::before{
+section#about div.skill ul li::before{
   content: "";
 }
-section#about div .skill ul li:nth-child(1)::before{
+section#about div.skill ul li:nth-child(1)::before{
   background-image: url(../img/html.png);
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
   display: block;
-  background-size: 100%;
 }
 section#about div .skill ul li:nth-child(2)::before{
-  background-image: url(../img/html.png);
+  background-image: url(../img/css.png);
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
@@ -105,42 +82,42 @@ section#about div .skill ul li:nth-child(2)::before{
    background-size: 100%;
 }
 section#about div .skill ul li:nth-child(3)::before{
-  background-image: url(../img/html.png);
+  background-image: url(../img/js.png);
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
   display: block;
 }
 section#about div .skill ul li:nth-child(4)::before{
-  background-image: url(../img/html.png);
+  background-image: url(../img/jquery.png);
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
   display: block;
    background-size: 100%;
 }
-/* section#about div .skill ul li:nth-child(5)::before{
-  /*! background-image: url(../img/html.png); */
+section#about div .skill ul li:nth-child(5)::before{
+  background-image: url(../img/sass.png);
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
   display: block;
 }
 section#about div .skill ul li:nth-child(6)::before{
-  /*! background-image: url(../img/html.png); */
+  background-image: url(../img/ps.png);
   background-repeat: no-repeat;
   width: 50px;
-  height: 50px;
+  height: 49px;
   display: block;
    background-size: 100%;
 }
 section#about div .skill ul li:nth-child(7)::before{
-  /*! background-image: url(../img/html.png); */
+  background-image: url(../img/ai.png);
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
   display: block;
-} */
+}
 
 
 
