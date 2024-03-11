@@ -1,0 +1,66 @@
+/* 상단영역 */
+header{
+   width: 1440px; /* 너비지정   */
+   margin: 0 auto; /* 중앙정렬 */
+ /*   background-color: rgba(255,225,225,0.5); */
+   height: 60px;
+   position: absolute;
+   width: 100%;
+   font-family: 'Roboto Slab', serif;
+   font-style: italic;
+ }
+ header .wrap{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 80px;
+ }
+ header h1{
+   color: red;
+    
+ }
+ header h1 a{
+   color: #adadad;
+   font-size: 0;
+   text-transform: capitalize;
+   letter-spacing: 2px;
+   background-image: url(../img/logo_or.png);
+   width: 60px;
+   height: 80px;
+   display: block;
+   background-size: 60%;
+   background-repeat: no-repeat;
+   margin-top: 60px;
+ }
+ header ul{
+   display: flex;
+   gap: 20px;
+   transform: translateX(285px);
+   display: none;
+ }
+ header ul li{
+    
+ }
+ header ul li a{
+   color: white;
+   text-transform: uppercase;
+ }
+ header div .wrap.a.ham{
+   font-size: 0;
+   width: 30px;
+   height: 30px;
+   background-image: url(../img/menu.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+
+input [id=menuicon]{
+  display: none;
+}
+input [id=menuicon] + label{
+  display: block;
+  width: 60px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+}

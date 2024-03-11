@@ -1,6 +1,12 @@
 /* body{
    font-family: "Noto Sans KR", sans-serif;
 } */
+header ul.nav li a{
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
 h2{
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
@@ -46,27 +52,33 @@ section .pro article p{
   font-style: normal;
 }
 section#contact .wrap h3{
-  font-family: "Noto Sans KR", sans-serif;
+ font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 700;
   font-style: normal;
 }
 section#contact .wrap p{ 
   font-family: "Noto Sans KR", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
 }
 section#contact .wrap .sns ul li{
-  font-family: "Noto Sans KR", sans-serif;
+   font-family: "Noto Sans KR", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 200;
   font-style: normal;
 }
 section#footer p{
   font-family: "Noto Sans KR", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
+  font-style: normal;
+}
+.btop{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
 }
 

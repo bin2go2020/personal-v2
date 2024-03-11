@@ -47,8 +47,8 @@ section#about div.skill{
   grid-row:2;
   width: 350px;
   height: 80px;
-  background-color: #3d3d3d;
-  border-radius: 30px;
+  background-color: #efefef;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
 }

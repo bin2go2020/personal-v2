@@ -65,7 +65,7 @@ main.h2::before{
   margin-bottom:10px;
 }
 .sasun::before{
-  content: "/";
+  content: "|";
   margin-right: 20px;
 }
 

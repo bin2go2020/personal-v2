@@ -60,13 +60,26 @@ section .pro article p{
 section .pro article .pic{
 
 }
+section .pro article .pic:hover{
+  background-color: #fe6c15;
+  border-radius: 15px;
+  opacity: 0.3;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  
+}
+section .pro article .pic ::after :hover  {
+  content: "";
+  background-image:url(../img/click.png);
+
+}
 section .pro article .pic img{
+ 
 }
 section .pro article .pic img:nth-child(1){
  background-image: url(../img/pf1.png);
  width: 400px;
  height: 220px;
- border-radius: 15px;
+ border-radius: 7px;
 }
-
 

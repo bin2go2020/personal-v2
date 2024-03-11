@@ -6,14 +6,18 @@ header{
   height: 60px;
   position: absolute;
   width: 100%;
-  font-family: 'Roboto Slab', serif;
-  font-style: italic;
+  height:120px;
+  display: flex;
+  align-items: center;
 }
 header .wrap{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 80px;
+  /*! display: flex; */
+  /*! justify-content: space-between; */
+  /*! align-items: center; */
+  /*! height: 80px; */
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  grid-template-rows: 1fr;
 }
 header h1{
   color: red;
@@ -28,20 +32,20 @@ header h1 a{
   width: 60px;
   height: 80px;
   display: block;
-  background-size: 60%;
+  background-size: 65%;
   background-repeat: no-repeat;
-  margin-top: 60px;
+  /*! margin-top: 60px; */
 }
-header ul{
+header ul.nav{
   display: flex;
   gap: 20px;
-  transform: translateX(285px);
+  padding: 7px 50px 0 0;
   display: none;
 }
-header ul li{
+header ul.nav li{
    
 }
-header ul li a{
+header ul.nav li a{
   color: white;
   text-transform: uppercase;
 }
@@ -102,14 +106,52 @@ div#title div.wrap h2 span{
 div p.h{
   color: #f1f1f1;
 }
-a.ham{
+/* a.ham{
   font-size: 0;
   width: 30px;
   height: 30px;
   background-image: url(../img/menu.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 130%;
+  background-size: 150%;
+  
+} */
+.ham{
+  width: 30px;
+  height: 24px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ham span{
+  width: 100%;
+  height: 4px;
+  display: block;
+  background-color: white;
+  border-radius: 10px;
+}
+.ham span:nth-child(1){
+   transform: 0.5s;
+}
+.ham span:nth-child(2){
+   transform: 0.01s;
+}
+.ham span:nth-child(3){
+   transform: 0.5s;
+}
+.ham.x span:nth-child(1){
+   transform:translateY(10px) rotate(45deg);
+}
+.ham.x span:nth-child(2){
+   opacity: 0;
+}
+.ham.x span:nth-child(3){
+   transform:translateY(-10px) rotate(-45deg);
+}
+.opacity1{
+
 }
 
 
