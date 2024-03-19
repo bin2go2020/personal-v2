@@ -43,12 +43,7 @@ header nav{
   /*! display: none; */
 }
 header nav ul.list{
-   display: none;
-   background-color:#ccc;
-   height: 100%;
-   display: block !important;
-   position: absolute;
-   top: 0;
+   
 }
 header ul.nav li{
  
@@ -70,6 +65,7 @@ header div .wrap.a.ham{
 div#title{
   background-color:#222121;
   background-image: url(https://cdn.pixabay.com/photo/2017/12/01/14/54/beach-2991021_960_720.jpg);
+  background-repeat: no-repeat;
   background-size:cover;
   background-position: 117% 40%;
   height: 100%;
@@ -125,6 +121,7 @@ div p.h{
 .ham{
   width: 30px;
   height: 24px;
+  margin-right: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;  
@@ -158,10 +155,6 @@ div p.h{
 .on{
   
 }
-.opacity1{
-   opacity: 1 !important;
-}
-
 main{
   height: 200%;
 }

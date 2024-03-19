@@ -24,7 +24,7 @@
      <link rel="stylesheet" href="css/font.css">
      <link rel="stylesheet" href="css/index.css">
      <link rel="stylesheet" href="css/ab.css">
-     <!-- <link rel="stylesheet" href="css/about.css"> -->
+     <link rel="stylesheet" href="css/about.css">
      <link rel="stylesheet" href="css/portfolio.css">
      <link rel="stylesheet" href="css/aside.css">
      <link rel="stylesheet" href="css/footer.css">  
@@ -40,7 +40,6 @@
             //     );
             $(".ham").click(function(){
                 $("header nav ul.list").toggleClass("on");
-                
                 $(this).toggleClass("x");
                 return false;
             });
@@ -84,11 +83,11 @@
     <!-- Aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- <script>
+    <script>
         $().ready(function(){
         AOS.init();
         });
-      </script> -->
+      </script>
     <!-- Aos -->
     <!-- 마우스 휠 -->
     <!-- <script type="text/javascript">
@@ -135,7 +134,7 @@
             });
         
             $("main>section").unwrap(); //상위 태그를 제거한다
-            // $("section:not('#portfolio')").css("height","100%"); // section 높이를100%로 바꿈
+            $("section:not('#portfolio')").css("height","100%"); // section 높이를100%로 바꿈
             //100%로가 아닐 경우 그section은 스쳐 지나감
         }
     </script> -->
@@ -153,8 +152,8 @@
                     <span> </span>
                     <span> </span>
                 </a>
-                <ul class="hide list">
-                  <li><a href="#ab">about&skill</a></li>
+                <ul class="list">
+                  <li><a href="#about">about&skill</a></li>
                   <li><a href="#portfolio">portfolio</a></li>
                   <li><a href="#contact">contact</a></li>
                 </ul>
@@ -169,6 +168,42 @@
 </div>
 <!--메인영역-->
 <main>
+   <!-- <section id="about" class="box">
+        <div class="wrap">
+            <h3>about&skills</h3>
+            <img src="img/Woman.png" alt="내 사진">
+            <div class="ab">
+                    <ul>
+                        <li>이 수빈</li>
+                        <li>2XXX.04.12 생</li>
+                        <li>여성</li>
+                        <li>용인 송담대학교 리빙디자인과 졸업</li>
+                        <li>동국대 DULCA 멀티미디어학 수료</li>
+                        <li>EZEN모란 웹디자인/퍼플리셔과정 5개월 수료</li>
+                        <li>GTQ 1급</li>
+                        <li>디자인에 대해 배우다 다른 분야도 도전을 해보고 싶어 찾다보니 UX / UI 이라는 분야가 눈에 들어왔습니다. 
+                            <br>그 이후로 기회가 찾아와 처음 배워 페이지를 만들어 봤을 때 백지상태였던 페이지가 채워지는 느낌이 즐겁고 흥미로웠던거 같습니다.
+                            <br>그래서 학기를 마치고 조금더 UX/UI에 대한 공부를 하고 싶어서 웹디자인 퍼블리셔 과정을 선택했습니다.</li>
+                    </ul>
+            </div>
+            <div class="skill">
+                <h3>skills</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>jQuery</li>
+                    <li>Javascript</li>
+                    <li>SASS</li>
+                    <li>포토샵</li>
+                    <li>일러스트</li>
+                    <li>프리미어</li>
+                    <li>에프터이펙트</li>
+                    <li>웹표준</li>
+                    <li>웹접근성</li>
+                </ul>
+            </div>   
+        </div>
+    </section> -->
     <section id="ab">
         <div class="wrap">
             <div class="me">
