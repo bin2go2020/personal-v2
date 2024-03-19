@@ -11,8 +11,8 @@ section .pro{
   display: flex;
   flex-direction: column;
   justify-content: center;
-   background-color: #eee;
-  height: 50%;
+  background-color: #eee;
+  max-width: 100%;
 }
 section .pro h3{
   font-size: 80px;
