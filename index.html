@@ -23,7 +23,8 @@
      <!--//구글폰트-->
      <link rel="stylesheet" href="css/font.css">
      <link rel="stylesheet" href="css/index.css">
-     <link rel="stylesheet" href="css/about.css">
+     <link rel="stylesheet" href="css/ab.css">
+     <!-- <link rel="stylesheet" href="css/about.css"> -->
      <link rel="stylesheet" href="css/portfolio.css">
      <link rel="stylesheet" href="css/aside.css">
      <link rel="stylesheet" href="css/footer.css">  
@@ -32,12 +33,14 @@
         $(document).ready(function(){
             // $(".ham").click(
             //         function(){
+
             //             $("aside").toggleClass("asideShow");
             //             // $(this).toggleClass("rot180");
             //         }
             //     );
             $(".ham").click(function(){
                 $("header nav ul.list").toggleClass("on");
+                
                 $(this).toggleClass("x");
                 return false;
             });
@@ -66,26 +69,26 @@
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- slick -->
       <script type="text/javascript">
-            $().ready(function(){
-                $('section#about div .skill ul').slick({
-                infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                speed:1000
-                });
-            });
+            // $(document).ready(function(){
+            //     $('section#about div .skill ul').slick({
+            //     infinite: true,
+            //     slidesToShow: 3,
+            //     slidesToScroll: 1,
+            //     autoplay: true,
+            //     autoplaySpeed: 2000,
+            //     speed:1000
+            //     });
+            // });
       </script>
     <!-- slick -->
     <!-- Aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
+    <!-- <script>
         $().ready(function(){
         AOS.init();
         });
-      </script>
+      </script> -->
     <!-- Aos -->
     <!-- 마우스 휠 -->
     <!-- <script type="text/javascript">
@@ -132,7 +135,7 @@
             });
         
             $("main>section").unwrap(); //상위 태그를 제거한다
-            $("section:not('#portfolio')").css("height","100%"); // section 높이를100%로 바꿈
+            // $("section:not('#portfolio')").css("height","100%"); // section 높이를100%로 바꿈
             //100%로가 아닐 경우 그section은 스쳐 지나감
         }
     </script> -->
@@ -150,8 +153,8 @@
                     <span> </span>
                     <span> </span>
                 </a>
-                <ul class="list">
-                  <li><a href="#about">about&skill</a></li>
+                <ul class="hide list">
+                  <li><a href="#ab">about&skill</a></li>
                   <li><a href="#portfolio">portfolio</a></li>
                   <li><a href="#contact">contact</a></li>
                 </ul>
@@ -159,31 +162,36 @@
         </div>
     </header>
 <div id="title" class="box">
+    
     <div class="wrap">
         <h2 class="h2 center"><span class="one">배우면서</span><br> <span>그릇</span> 을 늘려가는 ~ing <br>웹퍼블리셔 이수빈의 포트폴리오 입니다.</h2>
     </div>
 </div>
 <!--메인영역-->
 <main>
-   <section id="about" class="box">
-        <h3>about&skill</h3>
+    <section id="ab">
         <div class="wrap">
-            <img src="img/Woman.jpg" alt="내 사진">
+            <div class="me">
+                <img src="img/Woman.png" alt="내 사진">
+                <h3>about me</h3>
+                <ul>
+                    <li>디자인에 대해 배우다 다른 분야도 도전을 해보고 싶어 찾다보니 UX / UI 이라는 분야가 눈에 들어왔습니다. 그 이후로 기회가 찾아와 처음 배워 페이지를 만들어 봤을 때 백지상태였던 페이지가 채워지는 느낌이 즐겁고 흥미로웠던거 같습니다. 그래서 학기를 마치고 조금더 UX/UI에 대한 공부를 하고 싶어서 웹디자인 퍼블리셔 과정을 선택했습니다.</li>
+                </ul>
+            </div>
             <div class="ab">
-                    <ul>
-                        <li>이름:이수빈</li>
-                        <li>나이:2XXX.04.12</li>
-                        <li>성별:여자</li>
-                        <li>졸업:용인 송담대학교 리빙디자인과</li>
-                        <li>교육:동국대 DULCA 멀티미디어학 수료</li>
-                        <li>교육:이젠 모란 웹디자인 퍼플리셔과정 5개월 수료</li>
-                        <li>자격증:GTQ 그래픽 기술 자격 1급</li>
-                        <li>동기: <br>디자인에 대해 배우다 다른 분야도 도전을 해보고 싶어 찾다보니 UX / UI 이라는 분야가 눈에 들어왔습니다. 
-                            <br>그 이후로 기회가 찾아와 처음 배워 페이지를 만들어 봤을 때 백지상태였던 페이지가 채워지는 느낌이 즐겁고 흥미로웠던거 같습니다.
-                            <br>그래서 학기를 마치고 조금더 UX/UI에 대한 공부를 하고 싶어서 웹디자인 퍼블리셔 과정을 선택했습니다.</li>
-                    </ul>
+                <h3>인적사항</h3>
+                <ul>
+                    <li>이 수빈</li>
+                    <li>2000.04.12</li>
+                    <li>여성</li>
+                    <li>용인 송담대학교 리빙디자인과 졸업</li>
+                    <li>동국대 DULCA 멀티미디어학 수료</li>
+                    <li>EZEN모란 웹디자인/퍼플리셔과정 5개월 수료</li>
+                    <li>GTQ 1급</li> 
+                </ul>
             </div>
             <div class="skill">
+                <h3>보유스킬</h3>
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3</li>
@@ -192,11 +200,15 @@
                     <li>SASS</li>
                     <li>포토샵</li>
                     <li>일러스트</li>
+                    <li>프리미어</li>
+                    <li>에프터이펙트</li>
+                    <li>웹표준</li>
+                    <li>웹접근성</li>
                 </ul>
-            </div>   
+            </div>
         </div>
     </section>
-<!--포트폴리오-->
+    <!--포트폴리오-->
 <section id="portfolio" class="box">
     <div class="pro">
         <h3 data-aos="zoom-in">portfolio</h3>
@@ -207,6 +219,12 @@
                 </div>
                 <h5><a href="#">프로젝트1</a></h5>
                 <p>pf1_ 아큐닉</p>
+                <ul>
+                    <li>버전 PC</li>
+                    <li>HTML5 / CSS3</li>
+                    <li>참여도 100%</li>
+                    <li>MAIN</li> 
+                </ul>
             </article>
             <article>
                 <div class="pic">
@@ -214,6 +232,12 @@
                 </div>
                 <h5><a href="#">프로젝트2</a></h5>
                 <p>pf2_ 엘포인트</p>
+                <ul>
+                    <li>버전 PC</li>
+                    <li>HTML5 / CSS3</li>
+                    <li>참여도 100%</li>
+                    <li>MAIN</li> 
+                </ul>
             </article>
             <article>
                 <div class="pic">
@@ -221,6 +245,12 @@
                 </div>
                 <h5><a href="#">프로젝트3</a></h5>
                 <p>pf3_ HB페이퍼</p>
+                <ul>
+                    <li>버전 PC</li>
+                    <li>HTML5 / CSS3</li>
+                    <li>참여도 100%</li>
+                    <li>MAIN</li> 
+                </ul>
             </article>
             <article>
                 <div class="pic">
@@ -228,6 +258,12 @@
                 </div>
                 <h5><a href="">프로젝트4</a></h5>
                 <p>pf4_ 하이트진로</p>
+                <ul>
+                    <li>버전 PC</li>
+                    <li>HTML5 / CSS3</li>
+                    <li>참여도 100%</li>
+                    <li>MAIN</li> 
+                </ul>
             </article>
             <article>
                 <div class="pic">
@@ -235,6 +271,12 @@
                 </div>
                 <h5><a href="#">프로젝트5</a></h5>
                 <p>pf5_ 디자인3.3</p>
+                <ul>
+                    <li>버전 PC</li>
+                    <li>HTML5 / CSS3</li>
+                    <li>참여도 100%</li>
+                    <li>MAIN</li> 
+                </ul>
             </article>
         </div>
     </div>

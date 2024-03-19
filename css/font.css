@@ -16,9 +16,56 @@ h2{
  h3{
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
   font-style: normal;
-} 
+  font-weight: 400 !important;
+}
+/* 어버웃 폰트st */
+section#ab .wrap .me h3{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 60px;
+  color: #ffc208;
+}
+section#ab .wrap .me ul li{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+section#ab .wrap .ab h3{  
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700 !important;
+  font-style: normal;
+  font-size: 20px;
+  color: #0071b9;
+}
+section#ab .wrap .skill h3{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700 !important;
+  font-style: normal;
+  font-size: 20px;
+  color: #0071b9;
+}
+section#ab .wrap .ab ul li{
+  
+}
+section#ab .wrap .ab ul li:nth-child(-n+2){
+   font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500 !important;
+  font-style: normal;
+}
+section#ab .wrap .ab ul li{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200 !important;
+  font-style: normal;
+}
+/* 어버웃 폰트end */
 h4{
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
