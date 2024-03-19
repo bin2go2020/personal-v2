@@ -31,13 +31,6 @@
      <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
      <script type="text/javascript">
         $(document).ready(function(){
-            // $(".ham").click(
-            //         function(){
-
-            //             $("aside").toggleClass("asideShow");
-            //             // $(this).toggleClass("rot180");
-            //         }
-            //     );
             $(".ham").click(function(){
                 $("header nav ul.list").toggleClass("on");
                 $(this).toggleClass("x");
@@ -55,7 +48,15 @@
            $("section#contact .wrap .sns ul li p").hide();
            $("section#contact .wrap .sns ul li a").hide();
            $("section#contact .wrap .sns ul li h6").hide().show(500);
-      
+          //TOP버튼 스크롤
+          $(window).scroll(function() {
+            if ($(this).scrollTop() > 100) {
+                $(".btop").fadeIn();
+            } else {
+                $(".btop").fadeOut();
+            }
+         });
+         
            //TOP버튼 실행
            $("footer .btop").click(function(){
                     $("html,body").animate({scrollTop:0},1000); // 문서스크롤 애니
@@ -282,7 +283,7 @@
                 <p>pf3_ HB페이퍼</p>
                 <ul>
                     <li>버전 PC</li>
-                    <li>HTML5 / CSS3</li>
+                    <li>HTML5 / CSS3 /  javascript</li>
                     <li>참여도 100%</li>
                     <li>MAIN</li> 
                 </ul>
@@ -294,8 +295,8 @@
                 <h5><a href="">프로젝트4</a></h5>
                 <p>pf4_ 하이트진로</p>
                 <ul>
-                    <li>버전 PC</li>
-                    <li>HTML5 / CSS3</li>
+                    <li>버전 PC / 모바일</li>
+                    <li>HTML5 / CSS3 / javascript</li>
                     <li>참여도 100%</li>
                     <li>MAIN</li> 
                 </ul>
