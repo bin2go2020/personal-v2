@@ -78,6 +78,14 @@ section#about .wrap .ab ul li{
   font-weight: 200 !important;
   font-style: normal;
 }
+section#about .wrap .Drive h3{  
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700 !important;
+  font-style: normal;
+  font-size: 20px;
+  color: #0071b9;
+}
 /* 어버웃 폰트end */
 h4{
   font-family: "Oswald", sans-serif;
@@ -119,6 +127,18 @@ section .pro article p{
  font-family: "Noto Sans KR", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
+  font-style: normal;
+}
+section#skill .wrap .skills .lang li{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+section#skill .wrap .skills .program li{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
 }
 section#contact .wrap h3{

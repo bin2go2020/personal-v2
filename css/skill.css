@@ -1,57 +1,59 @@
 section#skill{
-   height: 60%;
-   display: flex;
-   align-items: center;
- }
- section#skill .wrap{
-   display: grid;
-   justify-content: center;
-   grid-template-columns: auto auto;
-   grid-template-rows: auto auto auto;
- }
- section#skill .wrap .ab ul.skill{
    
  }
- section#skill .wrap .skill{
+ section#skill .wrap{
+  
+ }
+section#skill .wrap .skills{
    width: 100%;
    display: flex;
    flex-direction: column;
    grid-column: 2 / span 2;
- }
- section#skill .wrap .skill h3{
+}
+   
+ section#skill .wrap .skills h3{
    width: 100%;
    line-height: 1.7;
+   grid-column: 1 /span 3;
+   grid-row: 1;
  }
- section#skill .wrap .skill h3::after{
+ section#skill .wrap .skills h3::after{
    content: "";
    display: block;
    border-top: 2px solid #dadada;
    transform: translateY(-67px);
    margin-left: 195px;
  }
- section#skill .wrap .skill ul{
-   font-size: 0;
+ section#skill .wrap .skills{
    width: 100%;
    display: grid;
-   grid-template-columns: repeat(7,auto);
-   column-gap: 30px;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: auto auto auto;
+   row-gap: 40px;
  }
- section#skill .wrap .skill ul li{
-   padding-top: 20px;
+ section#skill .wrap .skills .lang{
+  display: flex;
+  justify-content: space-between;
+}
+ section#skill .wrap .skills .lang li{
+   text-align: center;
+   line-height: 2.5;
  }
- section#skill .wrap .skill ul li::before{
+ section#skill .wrap .skills .lang li:nth-child(-n+6){
+ }
+ section#skill .wrap .skills .lang li::before{
    content: "";
  }
- section#skill .wrap .skill ul li:nth-child(-n+10){
- }
- section#skill .wrap .skill ul li:nth-child(1)::before{
+/*  section#skill .wrap .skills ul li:nth-child(-n+10){
+ } */
+ section#skill .wrap .skills .lang li:nth-child(1)::before{
    background-image: url(../img/html.png);
    background-repeat: no-repeat;
    width: 50px;
    height: 50px;
    display: block;
  }
- section#skill .wrap .skill ul li:nth-child(2)::before{
+ section#skill .wrap .skills .lang li:nth-child(2)::before{
    background-image: url(../img/css.png);
    background-repeat: no-repeat;
    width: 50px;
@@ -59,14 +61,19 @@ section#skill{
    display: block;
     background-size: 100%;
  }
- section#skill .wrap .skill ul li:nth-child(3)::before{
+ section#skill .wrap .skills .lang li:nth-child(3)::before{
    background-image: url(../img/js.png);
    background-repeat: no-repeat;
    width: 50px;
    height: 50px;
    display: block;
  }
- section#skill .wrap .skill ul li:nth-child(4)::before{
+section#skill .wrap .skills .lang li:nth-child(4){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ section#skill .wrap .skills .lang li:nth-child(4)::before{
    background-image: url(../img/jquery.png);
    background-repeat: no-repeat;
    width: 50px;
@@ -74,29 +81,132 @@ section#skill{
    display: block;
     background-size: 100%;
  }
- section#skill .wrap .skill ul li:nth-child(5)::before{
+ section#skill .wrap .skills .lang li:nth-child(5)::before{
    background-image: url(../img/sass.png);
    background-repeat: no-repeat;
    width: 50px;
    height: 50px;
    display: block;
  }
- section#skill .wrap .skill ul li:nth-child(6)::before{
-   background-image: url(../img/ai.png);
+ section#skill .wrap .skills .lang li:nth-child(6)::before{
+   background-image: url(../img/eclipse.png);
    background-repeat: no-repeat;
    width: 50px;
    height: 49px;
    display: block;
     background-size: 100%;
  }
- section#skill .wrap .skill ul li:nth-child(7)::before{
+/*프로그램*/
+ section#skill .wrap .program{
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(8,1fr);
+   grid-row: 3;
+   grid-template-rows: auto auto;
+ }
+ section#skill .wrap .program li{
+  line-height: 2.5;
+ }
+ section#skill .wrap .program li::before{
+   content: "";
+ }
+ section#skill .wrap .program li:nth-child(1)::before{
    background-image: url(../img/ps.png);
    background-repeat: no-repeat;
    width: 50px;
-   height: 49px;
+   height: 50px;
+   display: block;
+ }
+ section#skill .wrap .program li:nth-child(2)::before{
+   background-image: url(../img/ai.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
    display: block;
     background-size: 100%;
  }
+ section#skill .wrap .program li:nth-child(3)::before{
+   background-image: url(../img/pr.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+ }
+ section#skill .wrap .program li:nth-child(4)::before{
+   background-image: url(../img/jquery.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+    background-size: 100%;
+ }
+ section#skill .wrap .program li:nth-child(5)::before{
+   background-image: url(../img/sass.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+ }
+ section#skill .wrap .program li:nth-child(6)::before{
+   background-image: url(../img/auto.png);
+   background-repeat: no-repeat;
+   width: 60px;
+   height: 50px;
+   display: block;
+   background-size: 100%;
+ }
+ section#skill .wrap .program li:nth-child(7)::before{
+   background-image: url(../img/rhino.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+ }
+ section#skill .wrap .program li:nth-child(8)::before{
+   background-image: url(../img/key.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+    background-size: 100%;
+ }
+ section#skill .wrap .program li:nth-child(9)::before{
+   background-image: url(../img/un_logo.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+ }
+ section#skill .wrap .program li:nth-child(10)::before{
+   background-image: url(../img/emmet.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+    background-size: 100%;
+ }
+ section#skill .wrap .program li:nth-child(11)::before{
+   background-image: url(../img/jquery.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+ }
+ section#skill .wrap .program li:nth-child(12)::before{
+   background-image: url(../img/sass.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+ }
+ section#skill .wrap .program li:nth-child(13)::before{
+   background-image: url(../img/ov.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+ }
+
  
  
  
