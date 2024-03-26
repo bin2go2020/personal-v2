@@ -1,0 +1,171 @@
+/* body{
+   font-family: "Noto Sans KR", sans-serif;
+} */
+header ul.nav li a{
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+h2{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+ h3{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 95px;
+  color: #ffc208;
+}
+
+header nav ul.list{
+font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 20px;
+}
+
+/* 어버웃 폰트st */
+section#about .wrap .me h3{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 100px;
+  color: #ffc208;
+  transform: scaleY(0.7);
+  text-transform: capitalize;
+}
+section#about .wrap .me ul li{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+section#about .wrap .ab h3{  
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700 !important;
+  font-style: normal;
+  font-size: 20px;
+  color: #0071b9;
+}
+section#about .wrap .skill h3{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700 !important;
+  font-style: normal;
+  font-size: 20px;
+  color: #0071b9;
+}
+section#about .wrap .ab ul li{
+  
+}
+section#about .wrap .ab ul li:nth-child(-n+2){
+   font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500 !important;
+  font-style: normal;
+}
+section#about .wrap .ab ul li{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200 !important;
+  font-style: normal;
+}
+/* 어버웃 폰트end */
+h4{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 35px;
+  color: gray;
+}
+section#about div.wrap ul{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+section .pro .wrap{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+section .pro h3{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 120px;
+  transform: scaleY(0.7) !important;
+  text-transform: capitalize;
+  color: #0071b9;
+}
+section .pro article h5 a{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+section .pro article p{
+ font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+section#contact .wrap h3{
+font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 120px;
+  color: #ffc208;
+  transform: scaleY(0.7);
+  text-transform: capitalize;
+}
+section#contact .wrap p{ 
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+section#contact .wrap .sns ul li{
+   font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+section#footer p{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.btop{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+aside ul li a{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #222121;
+  font-size: 30px;
+}
+
+
+
+
+
+

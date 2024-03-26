@@ -1,0 +1,103 @@
+section#skill{
+   height: 60%;
+   display: flex;
+   align-items: center;
+ }
+ section#skill .wrap{
+   display: grid;
+   justify-content: center;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto auto auto;
+ }
+ section#skill .wrap .ab ul.skill{
+   
+ }
+ section#skill .wrap .skill{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   grid-column: 2 / span 2;
+ }
+ section#skill .wrap .skill h3{
+   width: 100%;
+   line-height: 1.7;
+ }
+ section#skill .wrap .skill h3::after{
+   content: "";
+   display: block;
+   border-top: 2px solid #dadada;
+   transform: translateY(-67px);
+   margin-left: 195px;
+ }
+ section#skill .wrap .skill ul{
+   font-size: 0;
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(7,auto);
+   column-gap: 30px;
+ }
+ section#skill .wrap .skill ul li{
+   padding-top: 20px;
+ }
+ section#skill .wrap .skill ul li::before{
+   content: "";
+ }
+ section#skill .wrap .skill ul li:nth-child(-n+10){
+ }
+ section#skill .wrap .skill ul li:nth-child(1)::before{
+   background-image: url(../img/html.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+ }
+ section#skill .wrap .skill ul li:nth-child(2)::before{
+   background-image: url(../img/css.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+    background-size: 100%;
+ }
+ section#skill .wrap .skill ul li:nth-child(3)::before{
+   background-image: url(../img/js.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+ }
+ section#skill .wrap .skill ul li:nth-child(4)::before{
+   background-image: url(../img/jquery.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+    background-size: 100%;
+ }
+ section#skill .wrap .skill ul li:nth-child(5)::before{
+   background-image: url(../img/sass.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   display: block;
+ }
+ section#skill .wrap .skill ul li:nth-child(6)::before{
+   background-image: url(../img/ai.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 49px;
+   display: block;
+    background-size: 100%;
+ }
+ section#skill .wrap .skill ul li:nth-child(7)::before{
+   background-image: url(../img/ps.png);
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 49px;
+   display: block;
+    background-size: 100%;
+ }
+ 
+ 
+ 
+ 
